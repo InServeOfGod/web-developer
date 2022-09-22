@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="container my-3">
+    <label for="content" class="form-label">Enter something:</label>
+    <input type="text" name="content" id="content" [(ngModel)]="content" class="form-control">
+    <span class="text-muted">{{ content }}</span>
+  </div>
+
+  <div class="container my-3">
+    <app-red></app-red>
+    <app-green></app-green>
+    <app-blue></app-blue>
+  </div>
+</div>
