@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+/* all a tags */
+a {
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    display: inline-block;
+}
+
+/* target blank */
+a[target='_blank'] {
+    background-color: #000;
+}
+
+/* title contains */
+a[title~="click"] {
+    border: 3px solid #aa0000;
+}
+
+/* class contains link or link- */
+a[class|='link'] {
+    outline: 3px solid #0000aa;
+}
+
+/* class starts with */
+a[class^='link-s'] {
+    font-size: 1.5rem;
+}
+
+/* class ends with y */
+a[class$='y'] {
+    font-size: 3rem;
+}
+
+a[class*="-d"] {
+    outline-color: #aa0000;
+}
+
+/* make img cover */
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
