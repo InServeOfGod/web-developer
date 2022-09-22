@@ -1,0 +1,24 @@
+{
+  "name": "web-developer",
+  "version": "1.0.0",
+  "description": "Web geliştirme üzerine her şey",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InServeOfGod/web-developer.git"
+  },
+  "author": "inserveofgod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InServeOfGod/web-developer/issues"
+  },
+  "homepage": "https://github.com/InServeOfGod/web-developer#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.1"
+  }
+}
