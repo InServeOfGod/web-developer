@@ -268,7 +268,7 @@
                 *
                 * */
 
-                const email_regex = "/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\. [a-zA-Z0-9-]+)*$/."
+                const email_regex = /^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\. [a-zA-Z0-9-]+)*$/
                 const email_field = $("#secondForm input[type='email']")
 
                 if (!email_field.test(email_regex)) {

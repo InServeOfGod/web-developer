@@ -1,1 +1,5 @@
 todo : make deep search for jquery-ui
+todo : typescript
+todo : angular => data-binding
+todo : react
+todo : mongodb
